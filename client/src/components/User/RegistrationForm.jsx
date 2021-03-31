@@ -75,6 +75,7 @@ class RegistrationForm extends React.Component {
 
   render() {
     const { showAddressField } = this.state;
+    const { switchRegistrationForm } = this.props;
     return (
       <div>
         <form onSubmit={this.handleFormSubmit}>
@@ -148,6 +149,7 @@ class RegistrationForm extends React.Component {
           </>
           : null}
           <input type="submit" value="See You Soon!"></input>
+          <button onClick={switchRegistrationForm}> Cancel </button>
         </form>
       </div>
     );

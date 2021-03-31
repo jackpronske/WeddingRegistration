@@ -26,7 +26,7 @@ const registrationSchema = mongoose.Schema({
   streetOne: String,
   streetTwo: String,
   cityState: String,
-  zip: Number
+  zip: String
 });
 
 const Guest = mongoose.model('Guest', registrationSchema);
