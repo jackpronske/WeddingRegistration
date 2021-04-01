@@ -36,7 +36,6 @@ class App extends React.Component {
             switchRole={this.switchRole}
           /> :
           <User
-            switchRole={this.switchRole}
             checkPassword={this.checkPassword}
           />}
       </div>

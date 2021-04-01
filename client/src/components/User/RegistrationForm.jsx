@@ -52,7 +52,6 @@ class RegistrationForm extends React.Component {
       guestForm.zip = zip;
     }
 
-    //post request with the guestForm
     postGuestForm(guestForm);
   }
 
