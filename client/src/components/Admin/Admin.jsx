@@ -43,7 +43,7 @@ class Admin extends React.Component {
         <button
           onClick={this.retrieveGuests}
         > refresh list </button>
-        <StatList />
+        <StatList guestList={guestList}/>
         <GuestList guestList={guestList}/>
       </div>
     );
